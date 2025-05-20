@@ -4,5 +4,7 @@
 
 SELECT ProductName, Description, Price
 FROM ProductCatalog
-WHERE Category = 'Educational Toys' AND IsAvailable
+WHERE Category = 'Educational Toys' AND IsAvailable 
 ORDER BY Price DESC
+
+!-- aici IsAvailable este un camp de tip boolean , care functioneaza un boolean in programare, no need for = true
