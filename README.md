@@ -121,3 +121,14 @@ Aici `id_client` din tabelul `comenzi` este o **foreign key** care face referin�
 - **Sorting by Multiple Columns**: You can sort by multiple columns by separating them with a comma. For example, `ORDER BY first_name, last_name`.
 - **Ascending and Descending Order**: By default, sorting is in ascending order. You can specify descending order using `DESC` (e.g., `ORDER BY first_name DESC, last_name ASC`).
 - **Placement with WHERE Clause**: When using `ORDER BY` with a `WHERE` clause, ensure `ORDER BY` is placed at the end of the statement.
+
+
+CREATING VIEW in SSM
+
+Creating a view in SQL Server allows you to save the syntax of a SELECT statement for future use. Here are the key takeaways from the video:
+
+Creating a View: You can create a view by combining data from multiple tables using the View Design window in SQL Server Management Studio.
+Designing the View: The View Design window is split into four areas: diagram pane, criteria pane, SQL pane, and results pane. You can toggle these sections on or off as needed.
+Benefits of Views: Views act as read-only tables that simplify complex SELECT statements, making it easier to review common data arrangements without writing out full queries each time.
+
+This process helps streamline data retrieval and management in SQL Server.
